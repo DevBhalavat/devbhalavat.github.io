@@ -7,17 +7,15 @@ categories: [Portswigger]
 tags: [llm]
 ---
 
-# Exploiting LLM APIs with Excessive Agency
+## Exploiting LLM APIs with Excessive Agency
 
 > **Decription:** Delete the user `carlos` to solve the lab.
 
-## Approach
+### Approach
 
 I started by interacting with the application's **Live Chat** feature, which was powered by a Large Language Model (LLM) API. It's common for such chatbots to wrap user inputs within predefined prompts, often exposing more functionality than intended.
 
 To explore the chatbot's capabilities, asked it a question regarding its capabilities. Surprisingly, the bot revealed that it had the ability to execute raw SQL queries.
-
-## Exploitation
 
 To test this, I submitted the following SQL query to the chatbot:
 
@@ -41,11 +39,11 @@ Once logged in, I navigated to the account settings and clicked the **Delete Acc
 
 ---
 
-# Exploiting Vulnerabilities in LLM APIs
+## Exploiting Vulnerabilities in LLM APIs
 
 > **Description**: This lab contains an OS command injection vulnerability that can be exploited via its APIs. You can call these APIs via the LLM. To solve the lab, delete the `morale.txt` file from Carlos' home directory.
 
-## Approach
+### Approach
 
 The description mentions an OS command injection vulnerability in the chatbot, which we need to exploit. As with the previous lab, I started by querying the chatbot to learn about the tasks it can perform. It listed the same three functionalities.
 
