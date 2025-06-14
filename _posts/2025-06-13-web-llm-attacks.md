@@ -1,5 +1,5 @@
 ---
-title: Web LLM Attacks (PortSwigger)
+title: Web LLM Attacks [PortSwigger]
 description: My solutions to the portswigger labs on Web LLM Attacks
 author: Dev Bhalavat
 date: 2025-06-13 17:00:00 +0530
@@ -102,5 +102,8 @@ This prompt injection tricks the LLM into interpreting it as a genuine request f
 
 ---
 
-
 # Exploiting insecure output handling in LLMs
+
+Description: This lab handles LLM output insecurely, leaving it vulnerable to XSS. The user `carlos` frequently uses the live chat to ask about the Lightweight "l33t" Leather Jacket product. To solve the lab, use indirect prompt injection to perform an XSS attack that deletes `carlos`.
+
+
