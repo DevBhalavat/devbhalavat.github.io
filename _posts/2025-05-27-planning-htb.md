@@ -1,6 +1,6 @@
 ---
 title: Planning [HackTheBox]
-description: My writeup for the Planning box on TryHackMe
+description: Planning has been Pwned!
 author: Dev Bhalavat
 date: 2025-05-27 17:00:00 +0530
 categories: [HackTheBox]

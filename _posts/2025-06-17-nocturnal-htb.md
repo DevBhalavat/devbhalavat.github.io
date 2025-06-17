@@ -1,6 +1,6 @@
 ---
 title: Nocturnal [HackTheBox]
-description: My writeup for the Nocturnal box on TryHackMe
+description: Nocturnal has been Pwned!
 date: 2025-06-17 19:00:00 +0530
 categories: [HackTheBox]
 tags: []
