@@ -1,7 +1,7 @@
 ---
 title: Environment [HackTheBox]
 description: Environment has been Pwned!
-date: 2025-06-20 14:00:00 +0530
+date: 2025-06-17 22:30:00 +0530
 categories: [HackTheBox]
 tags: []
 image: /assets/images/environment-htb/title.png
